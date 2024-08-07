@@ -4,10 +4,10 @@ Price Prediction model for cryptocurrency
 Cryptocurrency Price Prediction
 
 Overview
-This project aims to predict the prices of cryptocurrencies using machine learning techniques. By leveraging historical price data, trading volume, and other relevant features, we build models to forecast future price movements. This can be useful for traders, investors, and analysts looking to make informed decisions in the cryptocurrency market.
+This project aims to predict the prices of cryptocurrencies using machine learning techniques. By leveraging historical price data, trading volume, and other relevant features, we build models to forecast future price movements. 
 
 Features
-Data collection from multiple sources
+Data collection from kaggle
 Data preprocessing and feature engineering
 Implementation of various machine learning models
 Evaluation of model performance
