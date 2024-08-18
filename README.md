@@ -14,6 +14,10 @@ Evaluation of model performance
 Prediction of future cryptocurrency prices
 Visualization of results
 
+Data Preprocessing
+Data Cleaning: Removed missing values, handled outliers, and normalized the data.
+Feature Engineering: Created features like moving averages,Focus on time-based features like trends and seasonality. 
+Time Series Decomposition: Decomposed the price data into trend, seasonality, and residual components to better understand underlying patterns.
 
 Libraries 
 
@@ -25,21 +29,18 @@ matplotlib
 seaborn
 requests
 
-
-Data
-The dataset used in this project includes historical price data for various cryptocurrencies. The data can be obtained from sources such as Kaggle.
-
-
-Models
-The project explores several machine learning models, including:
-
-Linear Regression
-Decision Trees
-Random Forest
-Gradient Boosting
-LSTM (Long Short-Term Memory Networks)
-Each model is evaluated based on its performance metrics such as RMSE, MAE, and R² score.
+Modeling Approach
+The project utilized a combination of traditional time series models and modern machine learning techniques, including:
+ARIMA (AutoRegressive Integrated Moving Average)
+cross validaation (time series)
+LSTM (Long Short-Term Memory)
 
 Results
-The results of the model predictions are visualized using various plots to show the accuracy and performance over time.
+The models were tested on historical data, and their predictions were compared against actual market prices. The results demonstrate the potential of machine learning models in forecasting cryptocurrency prices, with deep learning models like LSTM showing strong performance in capturing complex patterns.
+
+Presentation link : https://www.canva.com/design/DAGN05qes9A/ERYXbI0eBLmi_tHtt-dqRA/edit
+
+
+
+
 
